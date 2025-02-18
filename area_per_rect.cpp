@@ -8,8 +8,8 @@
 #include <iostream>
 
 int main() {
-    std::cout << "For a rectangle with an length of 2 meters, and a height of 5 meters: \n"
+    std::cout << "For a rectangle with an length of 2m, and a height of 5m: \n"
               << std::endl;
     std::cout << "The area is " << 2 * 5 << "m^2" << std::endl;
-    std::cout << "The perimeter is " << 2 * (2) + 2 * (5) << "m" << std::endl;
+    std::cout << "The perimeter is " << (2 * 2) + (2 * 5) << "m" << std::endl;
 }
